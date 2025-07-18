@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lista de Problemas Reportados</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #008cba;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    .status-pendente {
+      color: #b30000;
+      font-weight: bold;
+    }
+
+    .status-resolvido {
+      color: green;
+      font-weight: bold;
+    }
+
+    .status-andamento {
+      color: orange;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Problemas Urbanos Reportados</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Categoria</th>
+          <th>Bairro</th>
+          <th>Endereço</th>
+          <th>Data</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Buracos no asfalto</td><td>Centro</td><td>Rua Marechal Floriano, 123</td><td>15/07/2025</td><td class="status-pendente">Pendente</td></tr>
+        <tr><td>Lâmpadas públicas queimadas</td><td>Arroio Grande</td><td>Rua das Rosas, 45</td><td>13/07/2025</td><td class="status-andamento">Em andamento</td></tr>
+        <tr><td>Vazamentos de água</td><td>Monte Alverne</td><td>Estrada Linha Santa Cruz</td><td>10/07/2025</td><td class="status-resolvido">Resolvido</td></tr>
+        <tr><td>Tampas de bueiro soltas ou quebradas</td><td>Bonfim</td><td>Av. Getúlio Vargas, 300</td><td>12/07/2025</td><td class="status-pendente">Pendente</td></tr>
+        <tr><td>Bueiros entupidos</td><td>Goiás</td><td>Rua do Comércio, 88</td><td>11/07/2025</td><td class="status-andamento">Em andamento</td></tr>
+        <tr><td>Fios caídos ou expostos</td><td>Independência</td><td>Rua Nova, 21</td><td>14/07/2025</td><td class="status-pendente">Pendente</td></tr>
+        <tr><td>Acúmulo de lixo ou entulho</td><td>Jardim Europa</td><td>Rua Primavera, 200</td><td>09/07/2025</td><td class="status-resolvido">Resolvido</td></tr>
+        <tr><td>Calçadas danificadas</td><td>Universitário</td><td>Av. Independência, 555</td><td>13/07/2025</td><td class="status-andamento">Em andamento</td></tr>
+        <tr><td>Semáforos quebrados ou desregulados</td><td>Várzea</td><td>Av. São João, 112</td><td>15/07/2025</td><td class="status-pendente">Pendente</td></tr>
+        <tr><td>Falta ou má conservação da sinalização</td><td>Monte Verde</td><td>Rua das Flores, 77</td><td>10/07/2025</td><td class="status-resolvido">Resolvido</td></tr>
+        <tr><td>Buracos no asfalto</td><td>Centro</td><td>Rua Sete de Setembro, 400</td><td>16/07/2025</td><td class="status-pendente">Pendente</td></tr>
+        <tr><td>Vazamentos de água</td><td>Esmeralda</td><td>Rua das Acácias, 66</td><td>14/07/2025</td><td class="status-andamento">Em andamento</td></tr>
+        <tr><td>Lâmpadas públicas queimadas</td><td>Rauber</td><td>Rua João Pessoa, 21</td><td>13/07/2025</td><td class="status-resolvido">Resolvido</td></tr>
+        <tr><td>Tampas de bueiro soltas ou quebradas</td><td>Centro</td><td>Rua Benjamin Constant, 99</td><td>12/07/2025</td><td class="status-pendente">Pendente</td></tr>
+        <tr><td>Bueiros entupidos</td><td>Renascença</td><td>Rua Osvaldo Aranha, 55</td><td>11/07/2025</td><td class="status-andamento">Em andamento</td></tr>
+        <tr><td>Fios caídos ou expostos</td><td>Santuário</td><td>Rua Vinte de Setembro, 300</td><td>15/07/2025</td><td class="status-pendente">Pendente</td></tr>
+        <tr><td>Acúmulo de lixo ou entulho</td><td>São João</td><td>Rua Antônio Prado, 200</td><td>09/07/2025</td><td class="status-resolvido">Resolvido</td></tr>
+        <tr><td>Calçadas danificadas</td><td>Schulz</td><td>Rua Independência, 600</td><td>13/07/2025</td><td class="status-andamento">Em andamento</td></tr>
+        <tr><td>Semáforos quebrados ou desregulados</td><td>Bonfim</td><td>Rua Marechal Floriano, 450</td><td>16/07/2025</td><td class="status-pendente">Pendente</td></tr>
+        <tr><td>Falta ou má conservação da sinalização</td><td>Centro</td><td>Rua XV de Novembro, 102</td><td>10/07/2025</td><td class="status-resolvido">Resolvido</td></tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

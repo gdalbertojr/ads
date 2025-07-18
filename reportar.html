@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reportar Problema Urbano</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Reportar Problema Urbano</h1>
+    <form>
+      <label for="categoria">Categoria do Problema</label>
+      <select id="categoria">
+        <option>Buracos no asfalto</option>
+        <option>Vazamentos de água</option>
+        <option>Lâmpadas públicas queimadas</option>
+        <option>Tampas de bueiro soltas ou quebradas</option>
+        <option>Bueiros entupidos</option>
+        <option>Fios caídos ou expostos</option>
+        <option>Acúmulo de lixo ou entulho</option>
+        <option>Calçadas danificadas</option>
+        <option>Semáforos quebrados ou desregulados</option>
+        <option>Falta ou má conservação da sinalização</option>
+      </select>
+
+      <label for="bairro">Bairro / Localidade</label>
+      <select id="bairro">
+        <!-- Bairros urbanos -->
+        <optgroup label="Bairros da Sede Municipal">
+          <option>Aliança</option>
+          <option>Ana Nery</option>
+          <option>Arroio Grande</option>
+          <option>Avenida</option>
+          <option>Belvedere</option>
+          <option>Bom Jesus</option>
+          <option>Bonfim</option>
+          <option>Castelo Branco</option>
+          <option>Centro</option>
+          <option>Country</option>
+          <option>Dona Carlota</option>
+          <option>Esmeralda</option>
+          <option>Faxinal Menino Deus</option>
+          <option>Germânia</option>
+          <option>Goiás</option>
+          <option>Higienópolis</option>
+          <option>Independência</option>
+          <option>Jardim Europa</option>
+          <option>João Alves</option>
+          <option>Linha Santa Cruz</option>
+          <option>Margarida</option>
+          <option>Monte Verde</option>
+          <option>Pedreira</option>
+          <option>Progresso</option>
+          <option>Rauber</option>
+          <option>Renascença</option>
+          <option>Santa Vitória</option>
+          <option>Santo Antônio</option>
+          <option>Santo Inácio</option>
+          <option>Santuário</option>
+          <option>São João</option>
+          <option>Schulz</option>
+          <option>Senai</option>
+          <option>Universitário</option>
+          <option>Várzea</option>
+        </optgroup>
+        
+        <!-- Distritos -->
+        <optgroup label="Distritos e Localidades Rurais">
+          <option>Boa Vista</option>
+          <option>Monte Alverne</option>
+          <option>São Martinho</option>
+          <option>Saraiva</option>
+          <option>São José da Reserva</option>
+          <option>Rio Pardinho</option>
+          <option>Alto Paredão</option>
+          <option>Área Anexada</option>
+        </optgroup>
+      </select>
+
+      <label for="endereco">Endereço / Referência</label>
+      <input type="text" id="endereco" placeholder="Rua, número, ponto de referência">
+
+      <label for="descricao">Descrição do Problema</label>
+      <textarea id="descricao" rows="4"></textarea>
+
+      <label for="foto">Foto (opcional)</label>
+      <input type="file" id="foto">
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
